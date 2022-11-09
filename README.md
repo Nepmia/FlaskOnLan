@@ -7,6 +7,8 @@ This django setup works in a different way than the vanilla django settings, its
   You can also generate new env type by creating a new file in settings, then import everything from `base.py` inside, then you just have to call this newly created env to use it.
   
   You are expected to generate a new django token inside `.env`.
+  
+  Default route for the API app is `api/`
 
 ## Environment
 This django comes with `python-dotenv` allowing you to use and set environment variables easely, there is a file called `environ.py` inside the app helpers, there you can import any env variable you later need and just `from App.helpers.environ import THE_ENV_VAR` to use it. 
